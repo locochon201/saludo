@@ -5,8 +5,8 @@ app = Flask(__name__)
 def hello():
     return "huele agas  ........ Fuga!"
  
- @app.route("/index")
- def index():
+@app.route("/index")
+def index():
    return open("index.html").read()
 
  
